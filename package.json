@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "smashing-conference",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Sample code from Smashing Conference 2019",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Julie Kisby",
   "dependencies": {
     "babel-preset-gatsby": "0.1.11",
     "gatsby": "^2.4.3",
