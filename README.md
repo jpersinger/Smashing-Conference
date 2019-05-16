@@ -3,13 +3,14 @@
   Smashing Conference 2019
 </h1>
 
-This repository has examples for some of the Smashing Conference talks. 
+This repository has examples for some of the Smashing Conference talks.
 
 Inside the src/pages directory you will find directories for each talk there is an example for.
 
 The sample folder inside of this is where you can find a finished (but not necessarily perfect) version of what you can practice making.
 
 ## Animating With Emotion - Darin Senneff
+
 Goal: Make a puppy svg blink!
 Extra Challenge: Get the puppy to wag its tail.
 
@@ -24,6 +25,7 @@ See changes to your version:
 http://localhost:8000/animating-with-emotion/
 
 ## Design Systems - Brad Frost
+
 Goal: Create a design system for: https://www.yahoo.com/lifestyle/horoscope/
 Extra Challenge: Use the Atomic Design methodology
 
@@ -65,10 +67,17 @@ http://localhost:8000/grid/
 ## Codepen Examples
 
 ### Dynamic CSS - Miriam Suzanne
+
 https://codepen.io/juliekisby/pen/joBGgO
-  
+
 ### Differential Serving - Jeremy Wagner
+
 https://codepen.io/juliekisby/pen/joBYOm?editors=1010
-  
+
+### Dynamic Typography - Jason Pamental
+
+https://codepen.io/juliekisby/pen/QRvEwX?editors=1100
+
 ### Grid - Jen Simmons
+
 https://codepen.io/juliekisby/pen/joBYzZ?editors=1100
