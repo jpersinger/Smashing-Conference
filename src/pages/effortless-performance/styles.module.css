@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Stylish');
+
+.article {
+  width: 50vw;
+  padding-left: 25vw;
+  padding-right: 25vw;
+}
+
+.h1 {
+  font-size: 3rem;
+  font-family: 'Stylish', sans-serif;
+}
+
+.h2 {
+  color: gray;
+  font-size: 2rem;
+}
+
+.image {
+  width: 100%;
+}
+
+.post {
+  font-size: 1.2rem;
+}

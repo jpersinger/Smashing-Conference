@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+}
+
+.item {
+  background-color: orange;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  width: 200px;
+  height: 200px;
+  margin: 2em;
+}
+
+.layoutItem:hover {
+  width: 300px;
+  height: 300px;
+}
+
+.paintItem:hover {
+  background-color: blue;
+  box-shadow: 0px 0px 33px 2px rgba(0, 0, 0, 0.75);
+}
+
+.compositingItem:hover {
+  opacity: 0.5;
+  transform: scaleX(0.5);
+}
