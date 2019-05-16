@@ -1,97 +1,74 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby's default starter
+  Smashing Conference 2019
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+This repository has examples for some of the Smashing Conference talks. 
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+Inside the src/pages directory you will find directories for each talk there is an example for.
 
-## 🚀 Quick start
+The sample folder inside of this is where you can find a finished (but not necessarily perfect) version of what you can practice making.
 
-1.  **Create a Gatsby site.**
+## Animating With Emotion - Darin Senneff
+Goal: Make a puppy svg blink!
+Extra Challenge: Get the puppy to wag its tail.
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+This demo uses TweenMax by Greensock to animate SVGs.
 
-    ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+(run with `npm run dev`)
 
-1.  **Start developing.**
+Sample version with a puppy blinking:
+http://localhost:8000/animating-with-emotion/sample/
 
-    Navigate into your new site’s directory and start it up.
+See changes to your version:
+http://localhost:8000/animating-with-emotion/
 
-    ```sh
-    cd my-default-starter/
-    gatsby develop
-    ```
+## Design Systems - Brad Frost
+Goal: Create a design system for: https://www.yahoo.com/lifestyle/horoscope/
+Extra Challenge: Use the Atomic Design methodology
 
-1.  **Open the source code and start editing!**
+(run with `npm run storybook`)
 
-    Your site is now running at `http://localhost:8000`!
+See changes here:
+http://localhost:9009/
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+## Effortless Performance - Anna Migas
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+Goal: Make a page super performant!
+Extra Challenge: Get the performance to 100%.
 
-## 🧐 What's inside?
+(run with `npm run dev`)
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+Sample version:
+http://localhost:8000/effortless-performance/sample/
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+See changes to your version:
+http://localhost:8000/effortless-performance/
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+To see a fully optimized version use `npm run build; npm run serve` then go to `localhost:9000`
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+## Grid - Jen Simmons
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+Goal: Match what is found in the sample using only grid (and maybe some padding)
+Extra Challenge: Find another magazine/book page and try to implement it using grid
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+Grid demo inspired by https://www.vectorstock.com/royalty-free-vector/awesome-magazine-cover-page-design-or-bifold-vector-14856740
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+(run with `npm run dev`)
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+Sample version:
+http://localhost:8000/grid/sample/
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+See changes to your version:
+http://localhost:8000/grid/
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+## Codepen Examples
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+### Dynamic CSS - Miriam Suzanne
+https://codepen.io/juliekisby/pen/joBGgO
+  
+### Differential Serving - Jeremy Wagner
+https://codepen.io/juliekisby/pen/joBYOm?editors=1010
+  
+### Grid - Jen Simmons
+https://codepen.io/juliekisby/pen/joBYzZ?editors=1100
